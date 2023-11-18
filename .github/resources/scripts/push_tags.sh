@@ -3,7 +3,7 @@ set -e
 
 REVISION=$(git rev-parse --short HEAD)
 
-DOCKER_USERNAME=mekomsolutions
+DOCKER_USERNAME=ersankose
 
 echo "⚙️ Compute docker manifest CLI arguments"
 archs=arm64,amd64
